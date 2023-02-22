@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,92 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background-color: #E5E5E5;
+}
+
+.App {
+  width: 620px;
+  margin-inline: auto;
+  margin-top: 3rem;
+}
+
+.container {
+  width: 85%;
+  margin-inline: auto;
+}
+
+.header {
+  height: 55px;
+  background: #F55A5A;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header--heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+.header--img {
+  margin-inline-end: 0.5rem;
+}
+.travelCard{
+  color: #2B283A;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+}
+.travelCard--section {
+  padding-top: 0.3rem;
+  background-color: #fff;
+}
+.travelCard--img {
+  margin-inline-end: 1.2rem;
+  min-width: 120px;
+  height: 150px;
+  border-radius: 5px;
+}
+.travelCard--location-img {
+  margin-inline-end: 0.5rem;
+}
+.travelCard--location {
+  margin-inline-end: 0.8rem;
+  letter-spacing: 0.17em;
+  font-size: 0.8rem;
+}
+.travelCard--google-map {
+  font-size: 10.24px;
+  line-height: 0.8rem;
+  text-decoration-line: underline;
+  color: #918E9B
+}
+.travelCard--title {
+  margin: 0.4rem 0 0.8rem;
+  font-weight: 900;
+}
+.travelCard--start-date, .travelCard--end-date, .travelCard--description {
+  font-size: 0.8rem;
+}
+.travelCard--date {  
+  margin-inline-end: 0.8rem;
+}
+.travelCard--description {
+  line-height: 130%;
+  margin-block-start: 0.4rem;
+  font-weight: lighter;
+  font-size: 0.8rem;
 }
